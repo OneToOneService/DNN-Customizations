@@ -1,5 +1,5 @@
 <%@ Control language="vb" AutoEventWireup="false" Explicit="True" Inherits="DotNetNuke.UI.Containers.Container" %>
-<%@ Register TagPrefix="dnn" TagName="ACTIONS" Src="~/Admin/Containers/SolPartActions.ascx" %>
+
 <%@ Register TagPrefix="dnn" TagName="ICON" Src="~/Admin/Containers/Icon.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="TITLE" Src="~/Admin/Containers/Title.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="VISIBILITY" Src="~/Admin/Containers/Visibility.ascx" %>
@@ -7,8 +7,8 @@
 <div class="c_head h3_title_underlined_container">
     <div class="head_title">
         <div class="c_actions">
-            <dnn:ACTIONS runat="server" id="dnnACTIONS" ProviderName="DNNMenuNavigationProvider"
-                ExpandDepth="1" PopulateNodesFromClient="True" />
+
+
         </div>
         <div class="c_icon">
             <dnn:ICON runat="server" id="dnnICON" />
