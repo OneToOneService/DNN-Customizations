@@ -1,0 +1,72 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path>images/</path>
+      <name>dnn-minus.gif</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>dnn-plus.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>H6Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>NoTitle.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H5Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H4Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>container.css</name>
+    </file>
+    <file>
+      <path />
+      <name>H3Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H2Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H1Title.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H4TitleUderlined.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>PlainContainer.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H6TitleUnderlined.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H5TitleUnderlined.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H3TitleUnderlined.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H2TitleUnderlined.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>H1TitleUnderlined.ascx</name>
+    </file>
+  </files>
+</dotnetnuke>
