@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SlideTemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!-- 
+         General structure:
+          <SlideTemplate name="name">
+            <Slide ... />
+          </SlideTemplate>
+
+         Slide attributes:
+           common: Title, Tags (separated by ', '(comma+whitespace))
+           image: Description, ImageName, Url 
+           text: Text
+    -->
+
+  
+  <SlideTemplate Name="Default Item">
+    <Title>Optional caption text</Title>
+    <Description><![CDATA[ This is the main slider <br /> with some cool options! ]]></Description>
+    <ImageName>images/portfolio-item.jpg</ImageName>
+    <Url>http://websitescreative.com</Url>
+    <Tags>DotNetNuke, Design, Development</Tags>
+  </SlideTemplate>
+  
+</SlideTemplates>
+
+
+

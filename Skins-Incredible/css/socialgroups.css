@@ -1,0 +1,786 @@
+﻿
+
+
+/* Profile Bar
+-----------------------------------------------------------*/
+	.LogoRowRight{ float:right; }
+	
+		.wsc-login-and-social{
+			float:right;
+			padding-right:0;
+			height:33px;
+			background:#f8f8f8;
+			margin-bottom: 10px;
+		}
+		
+		.wsc-login-and-social .registerGroup, 
+		.wsc-login-and-social .registerGroup *, 
+		.wsc-login-and-social .loginGroup, 
+		.wsc-login-and-social .loginGroup *{
+			display:block;
+		} 
+	
+	
+		.wsc-login-and-social .registerGroup,
+		.wsc-login-and-social .loginGroup{float:left;padding:0;margin:0;cursor: pointer} 
+		
+		
+		/* Register Group Styles */
+		.wsc-login-and-social .registerGroup li,
+		.wsc-login-and-social .registerGroup li:hover
+		{
+            border: none;
+            float: left;
+            height: 35px;
+            margin: 0;
+		}
+		
+		
+		.wsc-login-and-social .registerGroup .buttonGroup{margin-right:0;}
+		
+		.wsc-login-and-social .registerGroup a,
+		.wsc-login-and-social .loginGroup a{
+			position:relative;
+			display:block;
+			padding:11px 15px;
+			min-width:15px; min-height:11px;
+            font-family: 'Open Sans','Lucida Sans Unicode','Lucida Grande',sans-serif;
+			font-weight:normal;
+			font-size:11px;
+			vertical-align:middle;
+			line-height:1em;
+			border: 1px solid #E0E0E0;
+		    border-right :none;
+		}
+		
+		.wsc-login-and-social .registerGroup a:hover,
+		.wsc-login-and-social .loginGroup a:hover
+		{
+			background-color:#3a3a3a;
+			border-color:#3a3a3a;
+		}
+		
+		.wsc-login-and-social .registerGroup .userMessages a,
+		.wsc-login-and-social .registerGroup .userNotifications a 
+		{
+		     padding: 0px;
+		     border: 0;
+		}
+		
+		.wsc-login-and-social .registerGroup .userMessages a strong,
+		.wsc-login-and-social .registerGroup .userNotifications a strong 
+		{
+		     padding: 11px 15px;
+		     border: 1px solid #E0E0E0;
+		     border-right :none;
+		}
+		
+		.wsc-login-and-social .registerGroup .userMessages a strong:hover,
+		.wsc-login-and-social .registerGroup .userNotifications a strong:hover 
+		{
+		     padding: 11px 15px;
+		     border: 1px solid #E0E0E0;
+		     border-right :none;
+		     background-color:#3a3a3a;
+			 border-color:#3a3a3a;
+		}
+		
+		.wsc-login-and-social .registerGroup a:active,
+		.wsc-login-and-social .loginGroup a:active{
+			color:#fff;
+		}
+		
+		.wsc-login-and-social .registerGroup a:hover,
+		.wsc-login-and-social .loginGroup a:hover{text-decoration:none;}
+		
+		.wsc-login-and-social .registerGroup a strong,
+		.wsc-login-and-social .loginGroup a strong{
+			display:block;
+			font-weight:normal;
+			color: inherit;
+		}
+		
+		
+		
+		.wsc-login-and-social .registerGroup a span{
+			position:absolute;
+			right:5px; top:-7px;
+			display:inline-block;
+			padding:1px 4px 3px;
+			min-width:7px;
+			text-align:center;
+			margin-right:3px;
+			background: #f15a23; 
+			font-size:9px;
+			color:#fff;
+			}
+		
+		
+		.wsc-login-and-social .registerGroup .userProfileImg a{
+			padding:0;background:none;
+			min-width:25px;
+			border: none;
+			margin: 0px;
+		}
+		.wsc-login-and-social .registerGroup a img{
+			height:35px; 
+			width:35px;
+		}
+		
+		/* Login Group Styles */
+		
+		.wsc-login-and-social .loginGroup a
+		{
+		    padding:12px 20px; 
+		    font-weight:normal; 
+		    color:#fff;
+		    background-color: #f15a23;
+		    }
+		    
+		.wsc-login-and-social .loginGroup .LoginLink
+		{
+		    border:none;
+		}
+
+
+        /*	Buttons for Social Module
+        ---------------------------------------------------- */		    
+        .journalTools #btnShare.disabled,
+        .journalTools #btnShare, 
+        .jcmt li.cmtbtn a.disabled,
+        .jcmt li.cmtbtn a,
+        .coreMessaging .dnnPrimaryAction.ComposeMessage,
+        .dnnManageUsers ul.dnnActions .dnnPrimaryAction:hover,
+        .dnnManageUsers .dnnProfileDetails .dnnPrimaryAction,
+        .dnnManageUsers .dnnPasswordDetails .dnnPrimaryAction,
+        .dnnManageUsers .dnnUserDetails .dnnPrimaryAction,
+        .ModSocialGroupsC .dnnGroupDirectory .dnnPrimaryAction,
+        .dnnCoreMessagingFooter textarea#replyMessage + a.dnnPrimaryAction
+        {
+            background:#f15a23;
+            text-shadow: none;
+            border-radius:0px;
+            font-weight: normal;
+            color: #fff;
+        }
+        
+        .journalTools #btnShare.disabled:hover,
+        .journalTools #btnShare:hover, 
+        .jcmt li.cmtbtn a.disabled:hover,
+        .jcmt li.cmtbtn a:hover,
+        .coreMessaging .dnnPrimaryAction.ComposeMessage:hover,
+        .dnnManageUsers .dnnProfileDetails .dnnPrimaryAction:hover,
+        .dnnManageUsers .dnnPasswordDetails .dnnPrimaryAction:hover,
+        .dnnManageUsers .dnnUserDetails .dnnPrimaryAction:hover,
+        .ModSocialGroupsC .dnnGroupDirectory .dnnPrimaryAction:hover,
+        .dnnCoreMessagingFooter textarea#replyMessage + a.dnnPrimaryAction:hover
+        {
+            background:#3a3a3a!important;
+        }
+    	
+        /*---------------------------------------------------- */
+        
+        
+        
+        
+        /*----Reset DNN styles in Social Module---------------- */
+        
+        #journalEditor, .jcmt .cmteditarea,
+        #journalEditor #journalContent,
+        #journalEditor .securityMenu ul,
+        #journalEditor .securityMenu .handle,
+        .journalTools #journalOptionArea,
+        .journalrow div.author img,
+        .journalrow div.journalitem ul.jcmt li textarea,
+        textarea#replyMessage,
+        textarea#replyMessage:focus,
+        .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle,
+        .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle:hover,
+        .smListings .ActiveToggle,
+        .smListings .ActiveToggle:hover,
+        #mdMemberList > li,
+        #mdMemberList > li:hover,
+        .mdMemberDetails .mdMemberImg,
+        .mdMemberList .mdHoverContent .mdMemberImg,
+        .DnnModule-Messaging-Notifications .messageSelect .dnnTertiaryAction,
+        .DnnModule-Messaging-Notifications .messageSelect #SelectMenu ul,
+        .DnnModule-Messaging-Notifications .messageSelect #ActionsMenu ul,
+        .DnnModule-Messaging-Notifications .messageFolders .dnnTertiaryAction,        
+        .DnnModule-Messaging-Notifications .smListings .profileImg,
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li a,
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav a span,
+        .dnnProfileDetails .dnnForm .dnnFormItem input,
+        .dnnProfileDetails .dnnForm .dnnFormItem select,
+        .dnnPasswordDetails .dnnForm .dnnFormItem input,
+        .dnnUserDetails .dnnForm .dnnFormItem input                                               
+         {
+          background: #f8f8f8;
+          border-radius: 0px;
+          text-shadow: none;
+          box-shadow:none;
+          outline: none;
+        }
+        /*---------------------------------------------------- */
+
+
+
+        /* Left Column User Profile
+        ------------------------------------------------------ */
+        .LeftPaneProfile #UserProfileImg
+        {
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 0px;
+            max-width:200px;
+        }
+        .LeftPaneProfile #UserProfileImg img
+        {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: auto;
+            background: url(../img/noProfilePic.png) no-repeat center center;
+        }
+        .LeftPaneProfile #UserProfileImg span
+        {
+            display: block;
+            width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        .LeftPaneProfile .DnnModule .UserProfileControls ul
+        {
+            padding-left: 0;
+        }
+        .LeftPaneProfile .DnnModule .UserProfileControls ul li
+        {
+            list-style: none;
+            margin: 0 0 3px;
+        }
+        .LeftPaneProfile .DnnModule .UserProfileControls a.dnnSecondaryAction
+        {
+            padding: 0;
+            line-height: 1em;
+        }
+        
+        
+        
+        /* Left Column User Menu 
+        -----------------------------------------------------*/
+        .console
+        {
+            border-top: 1px solid #e0e0e0;
+            width: 100%;
+        }
+        
+        .console .console-none div.console-none
+        {
+            width: 100%;
+            margin:0px;
+            padding: 0px;
+            height: auto;
+        }
+        
+        .console-none h3 {
+            font-size: 12px;
+            padding: 6px 0 12px 6px;
+            text-transform: uppercase;
+            border-bottom:1px solid #e0e0e0;
+            margin:6px 0 0;
+        }
+        
+        .console-none h3:hover
+        {
+            margin:0px;
+            color: #f15a23;
+            border-color: #f15a23;
+            background: #f8f8f8;
+            border-top:6px solid #f15a23;
+        }
+        
+        
+        /* Content User Profile
+        ------------------------------------------------------------------*/
+        
+        /*---------User Accaunt Page-----------*/
+        
+        .journalTools {
+          max-width: 100%;
+        }
+        
+        #journalEditor #tbar span {
+         background-image: url("../img/journal-tools.png");
+        }
+        
+        .journalTools #journalOptionArea
+        {
+            width:100%;
+        }
+        
+        .RightPaneProfile #mdMemberList > li
+        {
+            width: 217px;
+            height: auto !important;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .RightPaneProfile #mdMemberList > li ul li
+        {
+            list-style:none;
+        }
+        
+        .RightPaneProfile #mdMemberList > li ul
+        {
+            margin: 10px 0;
+        }
+        
+        .journalrow div.journalitem ul.jcmt, 
+        .journalrow div.journalitem ul.jcmt li {
+            margin-left: 0;
+        }
+        
+        .dgdAvatar img
+        {
+            margin:0px;
+        }
+        
+        #journalEditor #journalContent .juser, .journalrow .juser {
+          background:none;
+          border: none;
+          color: #f15a23;
+        }
+        
+        #journalEditor #journalContent .juser:hover,
+         .journalrow .juser:hover
+         {
+             color:#3a3a3a;
+         }
+        
+        
+        
+        /*----------------- Friends Page-----------------*/
+        .mdMemberDetails .mdHoverActions li a, 
+        .mdMemberDetails .mdHoverActions li p
+        {
+            padding: 7px;
+        }
+        
+        .mdMemberDetails .mdHoverActions .mdComposeMessage a
+        {
+            padding: 10px 7px;
+        }
+        
+        .mdMemberDetails .mdHoverActions .mdComposeMessage a:hover
+        {
+            background-color: #f15a23;
+        }
+        
+        .mdMemberList .mdHoverContent
+        {
+            border-radius: 0px;
+        }
+        
+        .mdMemberList .mdHoverContent .mdHoverActions li {
+            padding: 5px 7px 0;
+        }
+         
+        /*---------Message & Notification Page-----------*/
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav a span                
+        {
+            background:#f15a23;
+            color:#fff;
+        }
+        
+        .DnnModule-Messaging-Notifications .dnnFormExpandContent {
+          top: -22px;
+        }
+        .smListings > ul > li,
+        .msgActionItems li,
+        .messages li
+        {
+            margin:0px;
+        }
+        
+        
+        .DnnModule-Messaging-Notifications .messageSelect #SelectMenu ul,
+        .DnnModule-Messaging-Notifications .messageSelect #ActionsMenu ul
+        {
+            z-index:3;
+        }
+        
+        .smListings .ActiveToggle
+        {
+            background:#f15a23;
+            position:relative;
+            top:4px;
+        }  
+        
+
+        .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle,
+        .DnnModule-Messaging-Notifications .smListings .active .ActiveToggle:hover,        
+        .smListings .ActiveToggle:hover
+        {
+            background: #3a3a3a;
+        }    
+        
+        .DnnModule-Messaging-Notifications .messageSelect .dnnTertiaryAction,
+        .DnnModule-Messaging-Notifications .messageFolders .dnnTertiaryAction,
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li a                
+        {
+            border: 1px solid #e0e0e0;
+            background:#eee;
+            color: #3a3a3a;
+        }
+        
+        .selectDrop .dnnTertiaryAction:after,
+        .selectDrop .dnnTertiaryAction:hover:after,
+        .selectDrop .dnnTertiaryAction.disabled:hover:after
+        {
+            background: url("../img/icons.png") no-repeat scroll 0 3px transparent;
+        }
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav
+        {
+            border-bottom: 1px solid #ddd;
+        }
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li a 
+        {
+            border-bottom:none;
+        } 
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li a:hover
+        {
+            background:#3a3a3a;
+            border-color:#3a3a3a;
+            color:#f15a23;
+        }
+        
+        .DnnModule-Messaging-Notifications .messageFolders .dnnTertiaryAction.active span
+        {
+            color:#f15a23;
+        }    
+        
+        .DnnModule-Messaging-Details .smListings .ListCol-2 {
+            width: 58%;
+        }             
+        
+        .DnnModule-Messaging-Details .smListings .ListCol-1 {
+            width: 8%;
+        }
+        
+        
+        
+        /*------------ Manage Profile Page-----------*/
+        .dnnProfileDetails .dnnForm .dnnFormItem input,
+        .dnnProfileDetails .dnnForm .dnnFormItem select,
+        .dnnPasswordDetails .dnnForm .dnnFormItem input,
+        .dnnPasswordDetails .dnnForm .dnnFormItem input,
+        .dnnUserDetails .dnnForm .dnnFormItem input
+        {
+            border: 1px solid #e0e0e0;
+            background:#eee;
+            color: #3a3a3a;
+        }
+                                
+        
+                    
+
+
+/* ---------------------------------------------------------------------- */
+/*	Media Queries
+/* ---------------------------------------------------------------------- */
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px)
+{
+    
+    /*---------Message & Notification Page-----------*/
+    .DnnModule-Messaging-Notifications .smListings .ListCol-3 {
+        width: 54%;
+    }
+    
+    .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-1
+    {
+        width:11%;
+    }
+    
+    .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-3
+    {
+        width:22%;
+    }
+    
+    .messageControls .messageSelect
+    {
+        margin:0px;
+    }
+    
+    .messageFolders p
+    {
+        padding-left:5px;
+    }
+    
+    
+    
+    /*-------------------Friends Page-------------------*/
+    .RightPaneProfile #mdMemberList > li {
+        width: 171px;
+    }
+    
+    #mdMemberList > li,
+    .mdMemberList .mdHoverContent
+    {
+        width: 230px;
+    }
+    
+    
+    
+    /*------------Manage Profile Page-------------------*/
+    .dnnUserDetails .dnnUser {
+      width: 100%;
+    }
+    
+    .dnnProfileDetails .dnnFormItem .dnnFormVisibility
+    {
+        width: 38%;
+    }
+}
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+    
+    /* -------------------------------------------------- */
+	/*	Profile Bar
+	/* -------------------------------------------------- */
+	    .wsc-login-and-social {
+            float: right;
+        }
+        
+	    .wsc-login-and-social .registerGroup a strong,
+		.wsc-login-and-social .loginGroup a strong{
+			text-indent:-9999px;
+			padding: 11px 22px!important;
+			max-width: 0px;   /* for Chrome */
+		}
+		
+		.wsc-login-and-social .registerGroup .userMessages strong,
+		.wsc-login-and-social .registerGroup .userNotifications strong{
+			background:url(../img/userLoginSprite.png) no-repeat 15px 12px;
+		}
+		.wsc-login-and-social .registerGroup .userNotifications strong{ background-position:-85px 10px; }
+		.wsc-login-and-social .registerGroup .userMessages strong:hover{background-position:15px -40px; }
+		.wsc-login-and-social .registerGroup .userNotifications strong:hover{ background-position:-85px -42px;}
+		.wsc-login-and-social .registerGroup .userMessages strong:active{background-position:15px -91px; }
+		.wsc-login-and-social .registerGroup .userNotifications strong:active{ background-position:-85px -92px;}  
+
+
+        /*--------- Menu User-----------*/
+        .console-none h3
+        {
+            text-align:center;
+        }
+       
+       
+        /*---------User Accaunt Page-----------*/
+        .journalTools #journalOptionArea div span#tbar-fileText
+        {
+            display:block;
+            padding-left:0px;
+        }
+        
+        .journalrow div.journalitem ul.jcmt, 
+        .journalrow div.journalitem ul.jcmt li {
+            width: 325px;
+        }
+        
+        
+        /*---------Message & Notification Page-----------*/        
+        .messageControls .messageSelect {
+            margin-right: 0;
+        }
+        
+        .messageControls div {
+            float: right;
+        }
+        
+        .DnnModule-Messaging-Notifications .smListings .ListCol-3 {
+            width: 43%;
+        }
+    
+        .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-1
+        {
+            width:14%;
+        }
+    
+        .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-3
+        {
+            width:19%;
+        }
+        
+        
+        
+        /*-------------- Friends Page----------------------*/                
+        .DnnModule #mdMemberList {
+            width: 100%;
+        }
+        
+        #mdMemberList > li
+        {
+            margin-right:0px;
+            width:92%;
+        }
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px)
+{
+    
+    /* -------------------------------------------------- */
+	/*	Profile Bar
+	/* -------------------------------------------------- */
+	    .wsc-login-and-social {
+            float: left;
+        }
+        
+	    .wsc-login-and-social .registerGroup a strong,
+		.wsc-login-and-social .loginGroup a strong{
+			text-indent:-9999px;
+			padding: 11px 17px!important;
+			max-width: 0px; /* for Chrome */
+		}
+		
+		.wsc-login-and-social .registerGroup .userMessages strong,
+		.wsc-login-and-social .registerGroup .userNotifications strong{
+			background:url(../img/userLoginSprite.png) no-repeat 11px 12px;
+		}
+		.wsc-login-and-social .registerGroup .userNotifications strong{ background-position:-90px 10px; }
+		.wsc-login-and-social .registerGroup .userMessages strong:hover{background-position:11px -40px; }
+		.wsc-login-and-social .registerGroup .userNotifications strong:hover{ background-position:-90px -41px;}
+		.wsc-login-and-social .registerGroup .userMessages strong:active{background-position:11px -91px; }
+		.wsc-login-and-social .registerGroup .userNotifications strong:active{ background-position:-90px -92px;}
+		
+		.wsc-login-and-social .loginGroup a,
+		.wsc-login-and-social .registerGroup a {
+            padding-left:5px;
+            padding-right:5px;
+        }
+        
+        
+        /*-------------Groups Page-------------*/        
+        .createGroup
+        {
+            margin-right: 0;
+        }
+        
+        /*-------------- Menu User -------------*/
+        .console-none h3
+        {
+            text-align:center;
+        }
+        
+       
+       
+        /*---------User Accaunt Page-----------*/
+        .journalTools #journalOptionArea div span#tbar-photoText {
+          display: block;
+          padding-left: 0;
+        }
+        
+        .journalrow div.journalitem ul.jcmt, 
+        .journalrow div.journalitem ul.jcmt li {
+            width: 210px;
+        }
+        
+        
+         /*---------Message & Notification Page-----------*/  
+         .DnnModule-Messaging-Notifications .dnnFormExpandContent {
+            right: 0;
+            top:-60px;
+            z-index: 3;
+        } 
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav
+        {
+            border-bottom:none;
+        }
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li a {
+          padding: 10px 40px;
+        } 
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav a span {
+          left: 7px;
+          padding: 4px 7px;
+          position: absolute;
+          top: 7px;
+        }
+        
+        .dnnForm.DnnModule-Messaging-Notifications .dnnAdminTabNav li
+        {
+            margin:0px;
+        }
+            
+        .messageControls .messageSelect {
+            margin-right: 0;
+        }
+        
+        .DnnModule .messageControls .buttonGroup {
+            margin:0 0 10px 0;
+        }
+        
+        .DnnModule-Messaging-Notifications .messageFolders .dnnTertiaryAction {
+            padding: 10px 19px;
+        }
+        
+        .DnnModule-Messaging-Notifications .messageSelect .dnnTertiaryAction {
+            padding : 10px 21px;
+        }
+        
+        .DnnModule-Messaging-Notifications .messageSelect #ActionsMenu .dnnTertiaryAction
+        {
+            padding:10px 23px;
+        }
+        
+        .DnnModule-Messaging-Notifications .smListings .ListCol-1 {
+          min-width: 18px;
+          padding-left: 1%;
+        }
+        
+        .DnnModule-Messaging-Notifications .smListings .ListCol-3 {
+            width: 28%;
+        }
+        
+        .DnnModule-Messaging-Notifications .smListings .ListCol-4 {
+            width: 35%;
+        }
+    
+        .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-1
+        {
+            width:20%;
+        }
+        
+        .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-2
+        {
+            width:45%;
+        }
+    
+        .DnnModule-Messaging-Notifications .previousMessages .smListings .ListCol-3
+        {
+            width:27%;
+        }
+        
+        
+        
+        
+        
+        
+
+}

@@ -1,0 +1,16 @@
+#main-nav > ul {
+  margin: -100px 0px 0px;
+}
+
+
+.social-links li
+{
+    float:left;
+    }
+    
+.dnnForm.FeedbackForm ul a.dnnPrimaryAction
+{
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f15a23', endColorstr='#f15a23',GradientType=0 ); BORDER-TOP-COLOR: #fff
+}
+    
+    

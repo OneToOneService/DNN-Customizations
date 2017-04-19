@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <skin_id>footer-links</skin_id>
+  <skin_image>skin_preview.png</skin_image>
+  <template_name>Superfish Horizontal Menu</template_name>
+  <description>The theme is based on SuperFish jQuery plugin - easy way to get SEO friendly CSS dropdown menu with cool JavaScript effects.</description>
+  <default>true</default>
+  <version>1.0</version>
+  <html>
+    <renderer>html/WrapperTemplate.ascx</renderer>
+  </html>
+  <css>
+    <root_css_class>{skin_id}</root_css_class>
+  </css>
+</skin>

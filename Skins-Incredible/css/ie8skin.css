@@ -1,0 +1,9 @@
+.dnnForm.FeedbackForm ul a.dnnPrimaryAction
+{
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f15a23', endColorstr='#f15a23',GradientType=0 ); BORDER-TOP-COLOR: #fff
+}
+
+.dnnForm.FeedbackForm ul a.dnnPrimaryAction:hover
+{
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#3a3a3a',GradientType=0 ); BORDER-TOP-COLOR: #fff
+}
