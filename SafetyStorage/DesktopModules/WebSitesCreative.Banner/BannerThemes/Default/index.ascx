@@ -3,6 +3,8 @@
 <%@ Import Namespace="WebSitesCreative.Modules.Banner.Components.Helpers" %>
 <%@ Register TagPrefix="cs" Namespace="WebSitesCreative.Modules.Banner.Controls"
     Assembly="WebSitesCreative.Modules.Banner" %>
+<%@ Register TagPrefix="dnn" TagName="jQuery" Src="~/Admin/Skins/jQuery.ascx" %>
+<dnn:jQuery runat="server" />
 <script runat="server" language="C#">
     protected void Page_Load(object sender, EventArgs e)
     {
